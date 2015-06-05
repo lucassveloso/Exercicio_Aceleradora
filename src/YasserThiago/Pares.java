@@ -8,18 +8,19 @@ public class Pares {
 	public static void main(String[] args) {
 		ArrayList<String> alunos = new ArrayList<String>();
 
-		alunos.add("|  Marcus   |");
-		alunos.add("|  Thiago   |");
-		alunos.add("| Raphael B.|");
-		alunos.add("|  Juliana  |");
-		alunos.add("|  Eduardo  |");
-		alunos.add("|   Amanda  |");
+		
 		alunos.add("|  Abimael  |");
 		alunos.add("| Guilherme |");
 		alunos.add("|   Lucas   |");
 		alunos.add("| Rafael R. |");
 		alunos.add("|   Yasser  |");
 		alunos.add("|   Johan   |");
+		alunos.add("|  Marcus   |");
+		alunos.add("|  Thiago   |");
+		alunos.add("| Raphael B.|");
+		alunos.add("|  Juliana  |");
+		alunos.add("|  Eduardo  |");
+		alunos.add("|   Amanda  |");
 
 		Collections.sort(alunos);
 		String[][] matriz = gerarMatriz(alunos);
